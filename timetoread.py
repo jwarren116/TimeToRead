@@ -6,7 +6,7 @@ import requests
 resp = requests.get('http://www.expertise.com/api/v1.0/jobs/text')
 
 # bind value of JSON object's 'text' to list 'text' split on whitespace
-text = resp.json()['text'].split()
+text = resp.json()['text'].replace(u'\u2014', ' ').split()
 
 # print estimated time to read text, assuming average of 200wpm
 # text/200.0 returns float, which is rounded up and converted to an int
