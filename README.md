@@ -1,6 +1,6 @@
 # TimeToRead
 
-**Deliverable:** A single Python file which requests http://www.expertise.com/api/v1.0/jobs/text, pulls the text from the "text" key and prints out an estimated number of minutes it a person takes read.
+**Deliverable:** A single Python file which requests http://www.expertise.com/api/v1.0/jobs/text, pulls the text from the "text" key and prints out an estimated number of minutes it takes a person to read.
 
 **Input:** http://www.expertise.com/api/v1.0/jobs/text (your code should request this via HTTP)
 
